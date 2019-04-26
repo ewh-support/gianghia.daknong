@@ -192,6 +192,8 @@ div.union_main_image div.Union_desc h2{
 	padding-left:10px;
 	padding-right:10px;
 	overflow:hidden;
+	background-color: #000;
+	opacity: 0.7;
 }
 p.hot-content1{
 	display:block;
@@ -1319,8 +1321,9 @@ ul.pagination3{
 }
 .hlOut #WebPartWPQ20 .ui-tabs-panel .news-tab-thumb-item-0 {
 	float: none;
-	height: 100px;
+	height: 108px;
 	padding-bottom: 5px;
+	width: 290px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-panel .news-tab-thumb-item-0 .news-tab-thumb-item-left-0 {
 	padding-top: 3px;
