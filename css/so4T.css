@@ -375,7 +375,7 @@ table.ms-sbtable td.ms-sbcell input{
 }
 td.ms-sbgo.ms-sbcell{
 	width:31px;
-	background: url("/img/sGo.png") no-repeat left top;
+	background: url("/img/sbgo.png") no-repeat left top;
 	height:26px;
 	border:0px;
 }
@@ -426,7 +426,7 @@ ul.ui-tabs-nav li.ui-tabs-selected a:link{
 }
 ul.ui-tabs-nav li.ui-tabs-selected{
 	background-image:none;
-	background-color:#cc0000;
+	background-color:#1371a7;
 }
 ul.ui-tabs-nav li.ui-tabs-selected + li, ul.ui-tabs-nav li.tabs-0{
 	background-image:none;
@@ -2186,7 +2186,7 @@ display: none !important;
 	width: 218px;
 	border: 1px solid #e2e2e3 !important;
 	margin-bottom: 5px;
-	height: 125px;
+	height: auto;
 }
 .dRight #WebPartWPQ16 .div-luat-tiep-can-thong-tin img {
 	width: 218px;

@@ -293,7 +293,7 @@ div.container_mid_main_in1{
 }
 div.tieudiem_title{
 	height:32px;
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	line-height:32px;
 	padding-top:0px;
 	padding-left:32px;
@@ -376,7 +376,7 @@ table.ms-sbtable td.ms-sbcell input{
 }
 td.ms-sbgo.ms-sbcell{
 	width:31px;
-	background: url("/img/sGo.png") no-repeat left top;
+	background: url("/img/sbgo.png") no-repeat left top;
 	height:26px;
 	border:0px;
 }
@@ -427,7 +427,7 @@ ul.ui-tabs-nav li.ui-tabs-selected a:link{
 }
 ul.ui-tabs-nav li.ui-tabs-selected{
 	background-image:none;
-	background-color:#cc0000;
+	background-color:#1371a7;
 }
 ul.ui-tabs-nav li.ui-tabs-selected + li, ul.ui-tabs-nav li.tabs-0{
 	background-image:none;
@@ -1065,7 +1065,7 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ13 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 220px;
 }
 .hlOut #WebPartWPQ13 .ui-tabs-nav .ui-tabs-selected a{
@@ -1117,7 +1117,7 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ22 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 220px;
 }
 .hlOut #WebPartWPQ22 .ui-tabs-nav .ui-tabs-selected a{
@@ -1167,7 +1167,7 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ23 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 220px;
 }
 .hlOut #WebPartWPQ23 .ui-tabs-nav .ui-tabs-selected a{
@@ -1220,7 +1220,7 @@ ul.pagination3{
 	/* padding-bottom: 2px; */
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1265,7 +1265,7 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1313,7 +1313,7 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1359,7 +1359,7 @@ ul.pagination3{
 	padding-top: 5px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1407,7 +1407,7 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1452,7 +1452,7 @@ ul.pagination3{
 	padding-top: 5px;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1500,7 +1500,7 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1545,7 +1545,7 @@ ul.pagination3{
 	/* padding-top: 5px; */
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1589,7 +1589,7 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ12 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 220px;
 }
 .hlOut #WebPartWPQ12 .ui-tabs-nav .ui-tabs-selected a{
@@ -1638,7 +1638,7 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ4 .ui-tabs-nav .ui-tabs-selected {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 220px;
 }
 .hlOut #WebPartWPQ4 .ui-tabs-nav .ui-tabs-selected a{
@@ -1709,7 +1709,7 @@ ul.pagination3{
 	border-radius: 0;
 }
 .hlOut #WebPartWPQ7 .title-album {
-	background: url("/img/title-1.png") no-repeat 0px 0px;
+	/* background: url("/img/title-1.png") no-repeat 0px 0px; */
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ7 .title-album a {
@@ -1818,7 +1818,7 @@ display: none !important;
 	border: 0;
 }
 .hlOut #WebPartWPQ6 .videobox .videobox-title {
-	background: url("/img/title-1.png") no-repeat 0px 0px;
+	/* background: url("/img/title-1.png") no-repeat 0px 0px; */
 	padding-bottom: 1px;
 }
 .hlOut #WebPartWPQ6 .videobox .videobox-title a {
@@ -1868,7 +1868,7 @@ display: none !important;
 
 /* ++++++++++++++  su-kien-trong-thang  ++++++++++++++ */
 .hlOut #WebPartWPQ15 .div-thong-tin-tuyen-truyen-title {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 200px;
 	height: 25px;
 	padding-top: 9px;
@@ -1901,7 +1901,7 @@ display: none !important;
 
 /* ++++++++++++++  tranh-anh-co-dong  ++++++++++++++ */
 .hlOut #WebPartWPQ22 .div-thong-tin-tuyen-truyen-title {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 200px;
 	height: 25px;
 	padding-top: 9px;
@@ -1980,7 +1980,7 @@ display: none !important;
 }
 
 .hlOut #WebPartWPQ18 .div-chuyen-trang-1-title {
-	background: url("/img/title-1.png") no-repeat 2px 0px;
+	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 	width: 160px;
 	height: 25px;
 	padding-top: 9px;
@@ -2187,7 +2187,7 @@ display: none !important;
 	width: 218px;
 	border: 1px solid #e2e2e3 !important;
 	margin-bottom: 5px;
-	height: 125px;
+	height: auto;
 }
 .dRight #WebPartWPQ16 .div-luat-tiep-can-thong-tin img {
 	width: 218px;
