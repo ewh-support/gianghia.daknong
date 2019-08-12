@@ -23,6 +23,7 @@ div.s4-title1{
 	padding-left: 105px;
 	overflow: hidden;
 	margin: 0;
+	background: transparent !important;
 }
 div.footer{
 	height:190px;
@@ -48,8 +49,8 @@ div.dRight{
 }
 /***/
 div.logoS{
-	height:110px;
-	background: none;	
+	height: 69px !important;
+	background: none !important;
 }
 div.ms-logo a{
 	text-indent:-9999px;
@@ -69,12 +70,12 @@ div#s4-titlerow {
 	margin: 0px auto;
 }
 div#s4-mainarea1{
-	background: url("/img/bgMain.jpg") repeat-y 0 0;	
+	background: #ffffff;
 	width:962px;
 	margin:0px auto;
 }
-div.hMain, div.snMain{
-	padding:5px 12px;	
+div.hMain{
+	padding:5px 12px;
 	width:auto;
 }
 div.snLeft{
@@ -99,9 +100,9 @@ div.snLeft .wf-notify {
 	display: none;
 }
 div.snCenter{
-	width:478px;
-	margin-left:10px;
-	padding-top: 3px;
+	width: 482px;
+	margin: 0;
+	padding: 0;
 }
 div.snRight{
 	width:220px;
@@ -110,15 +111,15 @@ div.snRight #WebPartWPQ10{
 	display: none;
 }
 li div.main-level{
-	background: url("/img/menuVer.png") no-repeat left top;
+	background: url("/img/layout-css/menuVer.png") no-repeat left top;
 	line-height: 33px !important;
 }
 li.LvSelected div.main-level:hover {
-	background: url("/img/bgMenuH.png") repeat-x left top !important;
+	background: url("/img/layout-css/bgMenuH.png") repeat-x left top !important;
 }
 ul#topnav div.main-level a{
 	padding:0px 8px 0px 20px;
-	background: url("/img/iconStar.png") no-repeat 7px 12px;
+	background: url("/img/layout-css/iconStar.png") no-repeat 7px 12px;
 }
 ul#topnav div.main-level a span{
 	/*! padding-right:49px; */
@@ -129,7 +130,11 @@ ul#topnav li.parent{
 }
 ul#topnav li:first-child a{
 	padding-left: 32px;
-	background: url("/img/iconHome.png") no-repeat 7px 6px;
+	background: url("/img/layout-css/iconHome.png") no-repeat 7px 6px;
+}
+
+ul#topnav .children li:first-child a{
+	background: none;
 }
 #topnav ul.children li {
 	width: 190px !important;
@@ -149,10 +154,10 @@ div.searchL{
 div#UnionNews_Container_mode2{
 	/*! padding:2px 2px 0px; */
 	/*background: url("/web/20180710011712im_/http://gianghia.daknong.gov.vn/imgSoTTTT/images/bgHot.png") no-repeat 0 0;*/
-	height:361px;
+	height: 365px;
 }
 div#UnionNews_Container_mode2 div#UnionNews_main_mode2{
-	height:360px;
+	height: 363px;
 	position:relative;
 	text-align:justify;
 	border-bottom: 1px dotted #e2e2e3 !important;
@@ -170,7 +175,7 @@ div#UnionNews_menu_mode2 .union_image_thumb img{
 div#UnionNews_Container_mode2 div#UnionNews_menu_mode2{
 	width:240px;
 	/*! border:0px !important; */
-	height: 360px;
+	height: 363px;
 	/*! background:transparent url("/web/20180710011712im_/http://gianghia.daknong.gov.vn/imgSoTTTT/images/bghotMenu1.png") no-repeat 0 bottom; */
 	overflow:hidden;
 	border-top: 0 !important;
@@ -226,15 +231,15 @@ div#UnionNews_menu_mode2 div.union_image_thumb ul li:last-child{
 	border-bottom: 0 !important;
 }
 div#UnionNews_menu_mode2 table.lv_union_table_menuheader{
-	height:30px;
+	height: 29px;
 	padding-left:0px;
 	background: #ffffff;
 	text-transform: uppercase;
 }
 div#UnionNews_menu_mode2 table.lv_union_table_menuheader td{
 	color:#fff !important;
-	height:25px;
-	padding:0px 0px 0px 30px;
+	height: 25px;
+	padding: 0px 0px 0px 30px;
 	text-align: left;
 }
 div#UnionNews_menu_mode2 table.lv_union_table_menuheader #menu2{
@@ -243,7 +248,7 @@ div#UnionNews_menu_mode2 table.lv_union_table_menuheader #menu2{
 .lv_union_table_menuheader .tabselected{
 	width:120px;
 	color:#333!important;
-	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -4px -43px;
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png") no-repeat;
 }
 table.lv_union_table_menuheader td.lv_menuheader_last{
 	text-align:left;
@@ -269,7 +274,7 @@ table.lv_union_table_menuheader td.lv_menuheader_last{
 }
 div.thongbao div.container_top_left1{
 	height:29px;
-	background:#108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png") no-repeat;
 }
 .thongbao div.container_top1 marquee{
 	height: 322px !important;
@@ -293,7 +298,7 @@ div.container_mid_main_in1{
 }
 div.tieudiem_title{
 	height:32px;
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: #ffffff url("https://mail.google.com/mail/u/0?ui=2&ik=4880be21b8&attid=0.0.1&permmsgid=msg-a:r2040724123647547719&th=16c7b43b8674c51c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_TcXDxlS5RIQxzfTil1nXCtZNiGIWElsK2z-LBV9eyzhA_E1p3K2OBxNXqvErCvW92ZGg_yLYbB1lX48m5gr1Jb0mqMWAAvSI-7H-1Dz29QMz-d6Zu5oFZxlc&disp=emb&realattid=ii_jz5g92t11") no-repeat 2px 0px !important;
 	line-height:32px;
 	padding-top:0px;
 	padding-left:32px;
@@ -411,7 +416,7 @@ div.lacviet-tabsnews div.ui-tabs ul.ui-tabs-nav li.tabs-0 a{
 .ui-tabs ul.ui-tabs-nav{
 	height:32px;
 	line-height:32px;
-	background: url("/img/tdTitle.jpg") repeat-x 0 0 !important;
+	/* background: url("/img/tdTitle.jpg") repeat-x 0 0 !important; */
 }
 ul.ui-tabs-nav li{
 	border-left:0px;
@@ -550,7 +555,7 @@ div.navList{
 }
 div.ms-navheader{
 	height:30px;
-	line-height:30px!important;
+	line-height: 15px!important;
 	background: #108de5 url("/img/bg_chuyenmuc3.png") no-repeat -5px -120px;
 }
 .WeatherForecast div.wf-title{
@@ -795,12 +800,25 @@ ul#topnav ul.children{
 	/*! background:transparent url("/web/20180710011712im_/http://gianghia.daknong.gov.vn/imgSoTTTT/images/bgmenuXo.png") no-repeat 0 bottom; */
 	/*! padding-bottom:12px; */
 	margin: 0px;
-	background: #78b43d;
-	border-top: 1px solid #ffffff;
-	border-left: 1px solid #ffffff;
-	border-right: 1px solid #ffffff;
+	background: url("http://www.hochiminhcity.gov.vn//_LAYOUTS/LacVietBio/eofficeimg/Giaodien/NewsCity/bgMenuXo.png");
+	/* border-top: 1px solid #ffffff; */
+	/* border-left: 1px solid #ffffff; */
+	/* border-right: 1px solid #ffffff; */
 	width: 190px;
+	position: fixed;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
+ul#topnav ul.children li:last-child {
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+ul#topnav ul.children .first-element {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
 ul#topnav ul.children li a{
 	border-bottom:0px;
 	border-bottom:0px;
@@ -811,14 +829,14 @@ ul#topnav ul.children li a:hover{
 	/*! background:url("/web/20180710011712im_/http://gianghia.daknong.gov.vn/imgSoTTTT/images/iconTabNewH.png") no-repeat 10px 11px; */
 }
 ul#topnav ul.children li a, ul#topnav ul.children li a:link, ul#topnav ul.children li a:visited{
-	color:#ffffff;	
+	color: #bc0000;
 	text-transform: uppercase;
 	font-weight: bold;
 	width: 190px;
 }
 ul#topnav ul.children li a:hover{
 	color:#c90b0b;
-	background: #78b43d;
+	background: url("http://www.hochiminhcity.gov.vn//_LAYOUTS/LacVietBio/eofficeimg/Giaodien/NewsCity/bgMenuXo.png");
 }
 ul#topnav ul.children li a{
 	padding-left:15px;
@@ -863,6 +881,7 @@ div.div_loaihtvb{
 }
 .divHitCount {
 	height:20px;
+	padding-top: 5px;
 }
 div.divHitCount div.HitTitle{
 	background-image:none;
@@ -1065,11 +1084,11 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ13 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 	width: 220px;
 }
 .hlOut #WebPartWPQ13 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1117,11 +1136,11 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ22 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 	width: 220px;
 }
 .hlOut #WebPartWPQ22 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1167,11 +1186,11 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ23 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 	width: 220px;
 }
 .hlOut #WebPartWPQ23 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1265,10 +1284,10 @@ ul.pagination3{
 	padding-top: 5px; */
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 }
 .hlOut #WebPartWPQ11 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1308,17 +1327,8 @@ ul.pagination3{
 	height: 252px;
 	padding: 0px 5px;
 }
-.hlOut #WebPartWPQ20 .ui-tabs-nav {
-	background: none;
-	padding-bottom: 2px;
-}
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected {
 	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
-}
-.hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
-	text-transform: uppercase;
-	padding-left: 32px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-panel .news-tab-thumb-item-0 {
 	float: none;
@@ -1350,19 +1360,17 @@ ul.pagination3{
 	position: initial;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-panel {
-	height: 252px;
+	height: 252px !important;
 	padding: 0px 5px 0px 5px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav {
 	background: none;
-	padding-bottom: 2px;
-	padding-top: 5px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 }
 .hlOut #WebPartWPQ20 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1402,10 +1410,6 @@ ul.pagination3{
 	height: 252px;
 	padding: 0px 5px;
 }
-.hlOut #WebPartWPQ21 .ui-tabs-nav {
-	background: none;
-	padding-bottom: 2px;
-}
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected {
 	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
@@ -1443,19 +1447,17 @@ ul.pagination3{
 	position: initial;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-panel {
-	height: 252px;
+	height: 252px !important;
 	padding: 0px 5px 0px 5px;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav {
 	background: none;
-	padding-bottom: 2px;
-	padding-top: 5px;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 }
 .hlOut #WebPartWPQ21 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1498,9 +1500,6 @@ ul.pagination3{
 .hlOut #WebPartWPQ25 .ui-tabs-nav {
 	background: none;
 	padding-bottom: 2px;
-}
-.hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected a{
 	color: #bc0000;
@@ -1545,10 +1544,10 @@ ul.pagination3{
 	/* padding-top: 5px; */
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 }
 .hlOut #WebPartWPQ25 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1589,11 +1588,11 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ12 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 	width: 220px;
 }
 .hlOut #WebPartWPQ12 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1638,11 +1637,11 @@ ul.pagination3{
 	padding-bottom: 2px;
 }
 .hlOut #WebPartWPQ4 .ui-tabs-nav .ui-tabs-selected {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png") no-repeat 2px 0px;
 	width: 220px;
 }
 .hlOut #WebPartWPQ4 .ui-tabs-nav .ui-tabs-selected a{
-	color: #bc0000;
+	color: #bc0000 !important;
 	text-transform: uppercase;
 	padding-left: 32px;
 }
@@ -1818,8 +1817,7 @@ display: none !important;
 	border: 0;
 }
 .hlOut #WebPartWPQ6 .videobox .videobox-title {
-	/* background: url("/img/title-1.png") no-repeat 0px 0px; */
-	padding-bottom: 1px;
+	background: url("/img/layout-css/title-1.png") no-repeat 0px 0px;
 }
 .hlOut #WebPartWPQ6 .videobox .videobox-title a {
 	color: #bc0000;
@@ -1868,12 +1866,12 @@ display: none !important;
 
 /* ++++++++++++++  su-kien-trong-thang  ++++++++++++++ */
 .hlOut #WebPartWPQ15 .div-thong-tin-tuyen-truyen-title {
-	/* background: url("/img/title-1.png") no-repeat 2px 0px; */
+	background: url("/img/layout-css/title-1.png")no-repeat 2px 0px;
 	width: 200px;
 	height: 25px;
-	padding-top: 9px;
+	padding-top: 10px;
 	padding-right: 5px;
-	padding-bottom: 10px;
+	/* padding-bottom: 10px; */
 }
 .hlOut #WebPartWPQ15 .div-thong-tin-tuyen-truyen-title a,
 .hlOut #WebPartWPQ15 .div-thong-tin-tuyen-truyen-title a:hover
@@ -1936,6 +1934,14 @@ display: none !important;
 .hlOut #WebPartWPQ14 {
 	/*! border-bottom: 1px solid #e2e2e3 !important; */
 	height: 175px;
+}
+.lv_topnews_mode3_title {
+	background: url("/img/layout-css/title-1.png")no-repeat 2px 0px;
+	padding-bottom: 13px !important;
+}
+.lv_topnews_mode3_title a {
+	color:#bc0000 !important;
+	margin-left:-5px;
 }
 
 /* ++++++++++++++  danh-muc-dau-cong-viec  ++++++++++++++ */
@@ -2073,11 +2079,11 @@ display: none !important;
 
 /* ++++++++++++++  banner-top  ++++++++++++++ */
 .v4-banner {
-	/* background: url("/img/bannerbg.jpg") no-repeat; */
+	background: url("/img/layout-css/top-banner-gif.gif") no-repeat;
 	/* height: 175px; */
-	overflow: hidden;
-	width: 960px;
-	margin: 0px auto;
+	/* overflow: hidden; */
+	/* width: 960px; */
+	/* margin: 0px auto; */
 }
 #topnav .LvSelected {
 	background:none;
@@ -2127,97 +2133,101 @@ display: none !important;
 	padding: 6px 0;
 	display:  block !important;
 }
-.dRight #WebPartWPQ16 .div-ban-do-hanh-chinh-title {
+.snRight .div-ban-do-hanh-chinh-title {
 	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
 	height: 35px;
 }
-.dRight #WebPartWPQ16 .div-ban-do-hanh-chinh {
+.snRight .div-ban-do-hanh-chinh {
 	width: 218px;
 	height: 220px;
 	border: 1px solid #e2e2e3 !important;
 	margin-bottom: 10px;
 }
-.dRight #WebPartWPQ16 .div-ban-do-hanh-chinh img {
+.snRight .div-ban-do-hanh-chinh img {
 	width: 218px;
 	height: 220px;
 }
-.dRight #WebPartWPQ16 .div-hoat-dong-co-quan-title {
-	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
-	height: 35px;
+.snRight .div-hoat-dong-co-quan-title {
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png")no-repeat !important;
+	height: 29px;
 	/*!  */
+	margin-bottom: 6px;
 }
-.dRight #WebPartWPQ16 .title {
+.snRight .title {
 	padding: 7px 36px;
 	width: 200px;
 	font-weight: bold;
 	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
 }
-.dRight #WebPartWPQ16 .ul-hoat-dong-co-quan {
+.snRight .ul-hoat-dong-co-quan {
 	/*! padding:  5px; */
 	/*! border: 1px solid #e2e2e3 !important; */
 }
-.dRight #WebPartWPQ16 .ul-hoat-dong-co-quan li {
+.snRight .ul-hoat-dong-co-quan li {
 	height: 55px;
 	/*! border-bottom: 1px dotted #e2e2e3; */
 	padding-bottom: 7px;
 }
-.dRight #WebPartWPQ16 .ul-hoat-dong-co-quan li:last-child {
+.snRight .ul-hoat-dong-co-quan li:last-child {
 	border-bottom: none;
 }
-.dRight #WebPartWPQ16 .div-icon {
+.snRight .div-icon {
 	/*! float: left; */
 	padding-top: 0px;
 }
-.dRight #WebPartWPQ16 .div-link {
+.snRight .div-link {
 	/*! padding: 0px !important; */
 	font-weight: bold;
 	color: #006cbc;
 	text-align: left;
 }
-.dRight #WebPartWPQ16 .div-link a:hover {
+.snRight .div-link a:hover {
 	text-decoration: none !important;
 	color: #bc0000;
 }
-.dRight #WebPartWPQ16 .div-pho-bien-huong-dan-title {
-	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
-	height: 35px;
-	margin-top: 8px;
+.snRight .div-pho-bien-huong-dan-title {
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png")no-repeat !important;
+	height: 29px;
+	margin-bottom: 5px;
 }
-.dRight #WebPartWPQ16 .div-luat-tiep-can-thong-tin {
+.snRight .div-luat-tiep-can-thong-tin {
 	width: 218px;
 	border: 1px solid #e2e2e3 !important;
 	margin-bottom: 5px;
 	height: auto;
 }
-.dRight #WebPartWPQ16 .div-luat-tiep-can-thong-tin img {
+.snRight .div-luat-tiep-can-thong-tin img {
 	width: 218px;
 }
-.dRight #WebPartWPQ16 .div-quang-cao-title {
-	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
-	height: 35px;
-	margin-top: 5px;
+.snRight .div-quang-cao-title {
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png")no-repeat !important;
+	height: 29px;
+	margin-bottom: 5px;
 }
-.dRight #WebPartWPQ16 .div-diem-den-gia-nghia {
+.snRight .div-diem-den-gia-nghia {
 	height: 55px;
 }
-.dRight #WebPartWPQ16 .div-diem-den-gia-nghia img {
+.snRight .div-diem-den-gia-nghia img {
 	width: 220px;
 }
-.dRight #WebPartWPQ16 .div-lien-ket-dien-tu-title {
-	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -3px -121px;
-	height: 35px;
+.snRight .div-lien-ket-dien-tu-title {
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png")no-repeat !important;
+	height: 29px;
 	/*! margin-top: 8px; */
+	margin-bottom: 5px;
 }
-.dRight #WebPartWPQ16 .div-cong-dien-tu-chinh-phu {
+.snRight .div-cong-dien-tu-chinh-phu {
 	height:55px;
 	padding-bottom:6px
 }
-.dRight #WebPartWPQ16 .div-cong-dien-tu-dak-nong {
+.snRight .div-cong-dien-tu-dak-nong {
 	height:55px;
 	padding-bottom:6px
 }
-.dRight #WebPartWPQ16 .div-van-ban-phap-luat-dak-nong {
-	height:55px;
+.snRight .div-van-ban-phap-luat-dak-nong {
+	height: 59px;
 }
 
 /* ++++++++++++++  luot-truy-cap  ++++++++++++++ */
@@ -2373,17 +2383,14 @@ border-right: 1px solid #e2e2e3;
 	margin:0;
 	overflow:hidden;
 	border-bottom: 1px #dfdfdf solid !important;
+	margin-bottom: 5px;
 }
 .wpVBM .ds_VBPL {
 	background: #108de5 url("/img/bg_chuyenmuc.png") no-repeat -5px -120px;
-	border-bottom: 1px solid #e2e2e3;
 }
 .wpVBM .ds_VBPL .td_vanbanmoi {
-	background: none;
-	border: 1px solid #e2e2e3 !important;
-	height: 25px;
-	padding-left: 28px !important;
-	padding-top: 3px !important;
+	background: #108de5 url("/img/layout-css/bg_chuyenmuc.png")no-repeat !important;
+	height: 29px;
 }
 .wpVBM .divvanbanmoi {
 	border-top: 0px;
@@ -2392,6 +2399,7 @@ border-right: 1px solid #e2e2e3;
 	border-left: 1px solid #e2e2e3 !important;
 	padding: 0;
 	margin: -1px 0px 0px 0px;
+	background: #ffffff;
 }
 .wpVBM .divvanbanmoi .divskhnbh {
 	padding:0;
@@ -2496,16 +2504,16 @@ border-right: 1px solid #e2e2e3;
 
 /* ++++++++++++++  bo-may-hanh-chinh  ++++++++++++++ */
 .admin1 {
-	background: url("/img/admin1.jpg") no-repeat;
+	background: url("/img/layout-css/admin1.jpg") no-repeat;
 	height: 13px;
 	width: 517px;
 }
 .admin2 {
-	background: url("/img/admin2.jpg") repeat-y;
+	background: url("/img/layout-css/admin2.jpg") repeat-y;
 	width: 517px;
 }
 .admin3 {
-	background: url("/img/admin3.jpg") no-repeat;
+	background: url("/img/layout-css/admin3.jpg") no-repeat;
 	height: 14px;
 	width: 517px;
 }
